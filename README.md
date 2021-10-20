@@ -1,6 +1,6 @@
 # mindDoc(A Mental Health-Care App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site Link:  https://cocky-albattani-9aeff8.netlify.app/
 
 ## Functionalities
 

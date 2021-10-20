@@ -2,3 +2,19 @@
     font-size:50px;
     font-weight:bold;
 }
+
+.navs{
+    background-color:cornflowerblue;
+ 
+
+}
+
+.navs a{
+    text-decoration:none;
+    color:white;
+    padding: 10px;
+}
+
+.navs a:hover{
+    background-color:black;
+}

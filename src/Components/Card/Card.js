@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Card.css';
 const Card = (props) => {
 
+
+
     const { id, name, description, img } = props.activity;
     return (
         <div className="col">

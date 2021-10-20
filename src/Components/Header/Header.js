@@ -9,8 +9,9 @@ import Login from '../Login/Login';
 import PrivateRoute from '../Login/PrivateRoute/PrivateRoute';
 import NotFound from '../NotFound/NotFound';
 import Register from '../Register/Register';
-
+import Experts from '../Experts/Experts';
 import './Header.css';
+import About from '../About/About';
 
 const Header = () => {
     const { user, logOut } = useAuth();
@@ -18,7 +19,7 @@ const Header = () => {
         <div>
             <h1 className="text-center text-secondary webName">mind<span className="text-danger">Doc</span></h1>
             <Router>
-                <nav>
+                <nav className="navs d-flex justify-content-center">
                     <Link to="/Home">Home</Link>
                     {user.email && <span >Hello {user.displayName} </span>}
                     {
@@ -28,6 +29,10 @@ const Header = () => {
                             <Link to="/login">Login</Link>
                     }
 
+                    <Link to="/Experts">Experts</Link>
+
+                    <Link to="/About">About</Link>
+
 
                 </nav>
                 <Switch>
@@ -36,6 +41,10 @@ const Header = () => {
                     <Route path="/Login">
                         <Login></Login>
 
+                    </Route>
+                    <Route path="/Home">
+                        <Banner></Banner>
+                        <Activities></Activities>
                     </Route>
                     <Route path="/register">
                         <Register></Register>
@@ -50,6 +59,12 @@ const Header = () => {
                     <PrivateRoute path="/Details/:detailsId">
                         <Details></Details>
                     </PrivateRoute>
+                    <Route path="/Experts">
+                        <Experts></Experts>
+                    </Route>
+                    <Route path="/About">
+                        <About></About>
+                    </Route>
                     <Route path="*">
                         <NotFound></NotFound>
                     </Route>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Details from '../Details/Details/Details';
 
 const Activities = () => {
     const [act, setActivities] = useState([]);
@@ -17,7 +18,11 @@ const Activities = () => {
 
                 {
                     act.map(activity => <Card activity={activity}></Card>)
+
                 }
+
+
+
 
             </div>
 

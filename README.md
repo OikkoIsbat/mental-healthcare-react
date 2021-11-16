@@ -1,16 +1,14 @@
-# mindDoc(A Mental Health-Care App)
+# SeaExpplore.com(A Tourism Site)
 
-Site Link:  https://cocky-albattani-9aeff8.netlify.app/
+Site Link:  
 
 ## Functionalities
 
-In the project directory, you can:
+In the project, you can:
 
-1. Get in contact with world's best psychologists.
-2. Share about your mental health
-3. Join our meditation sessions. 
-4. Get proper medications.
-5. Book early to confirm your session.
-
+1. Shipping Service
+2. Fastest Way to get to saint martin's Island.
+3. Early Booking
+4. Discounts on Family packeges
 
 

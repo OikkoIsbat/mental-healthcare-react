@@ -1,6 +1,6 @@
-# SeaExpplore.com(A Tourism Site)
+# mindDoc(Mental Health Related Site)
 
-Site Link:  
+Site Link:  https://cocky-albattani-9aeff8.netlify.app/
 
 ## Functionalities
 
